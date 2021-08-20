@@ -1,0 +1,22 @@
+Khó trở thành game multiple players, vì khi chuyển tab, browser tự động làm chậm hoặc dừng phaser, 
+gây độ trễ ở client
+
+"If you switch tab, or minimize the browser, or even just cover the browser window up with another app, 
+then the browser will start to slow anything using Request Animation Frame down, and eventually, 
+it will stop updating it completely. It does this automatically, 
+it's nothing to do with Phaser and you cannot prevent it."
+
+=> Giải pháp, mỗi khi có người chơi chuyển tab, sẽ pause game tất cả người chơi cùng, 
+sau đó khi tất cả resume thì tiếp tục
+
+--------------------
+
+Sử dụng socketio để giao tiếp
+Hệ quả: sẽ cần thay đổi cách trigger event và listen event của Soldier
+
+--------------------
+
+Cho enemy thành group => không hợp lý, vì không giải quyết được nhiều
+=> Cho thành array
+
+Thêm tính năng bullet limited (5 viên?), tránh việc sấy làm đối thủ không né được
