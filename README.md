@@ -4,7 +4,7 @@
 ## Graphic Source
 Graphics used in the game are obtained for free at [itch.io](https://itch.io/game-assets/free).
 ## Demo
-Let's enjoy the game at [Shooter](https://trandai1106.github.io/Shooter/).
+The project is not completed yet.
 ## Contact
 If you have suggestions or problems with copyright infringement, please contact me via:
 
